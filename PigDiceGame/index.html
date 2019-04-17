@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pig Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var $ = function(id) {
+            return document.getElementById();
+        };
+
+        var playGames = function() {
+            var numberOfGames = parseInt($("number_of_games").value);
+
+            for (var i = 0; i < numberOfGames; i++) {
+                var numberRolled;
+
+                // Loop to keep rolling dice until a 1 is rolled
+            }
+        };
+
+        // return scores to html
+    
+    </script>
+</head>
+<body>
+    <h1>Pig Dice Game</h1>
+    <label for="number_of_games">How many games would you like to play? </label>
+    <input type="text" id="number_of_games">
+    <span id="number_error">*</span>
+
+    <div id="score">0</div>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
